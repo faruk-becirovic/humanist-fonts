@@ -1,0 +1,10 @@
+# Maintainer: Faruk Becirovic
+
+pkgname=ttf-humanist-fonts
+pkgdesc='A bundle of various open source humanist fonts.'
+arch=(any)
+licence=('OFL')
+source=("Source"
+package() {
+    install -Dm644 -t "$pkgdir/user/share/fonts/$pkgname" "
+}
